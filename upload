@@ -5,5 +5,15 @@ echo "Upload Begin"
 hostname -I > ip.txt
 git add .
 git commit -m "New Commit"
+
+set timeout 60
+set user "agarafal"
+set machine "raspberry"
+set password "GitHub123!@#"
 git push origin master
-echo "agarafal"
+expect {
+	"Username for 'https://github.com:'"
+	{
+		send "agarafal"
+	}
+	}
