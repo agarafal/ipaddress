@@ -1,0 +1,9 @@
+#!/bin/bash
+#script
+
+echo "Upload Begin"
+hostname -I > ip.txt
+git add .
+git commit -m "New Commit"
+git push origin master
+echo "agarafal"
