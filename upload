@@ -8,6 +8,7 @@ cd ..
 cd ..
 cd home/pi/Documents/ipaddress
 
+echo "SUP"
 hostname -I > ip.txt
 git add .
 git commit -m "New Commit"
