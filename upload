@@ -1,9 +1,16 @@
-#!/bin/bash
-#script
+#! /bin/sh
+# /etc/init.d/upload
+#
+
 
 echo "Upload Begin"
+cd ..
+cd ..
+cd home/pi/Documents/ipaddress
+
 hostname -I > ip.txt
 git add .
 git commit -m "New Commit"
 git push origin master
 
+exit 0
