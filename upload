@@ -4,11 +4,8 @@
 
 
 echo "Upload Begin"
-cd ..
-cd ..
-cd home/pi/Documents/ipaddress
 
-echo "SUP"
+echo "hola"
 hostname -I > ip.txt
 git add .
 git commit -m "New Commit"
