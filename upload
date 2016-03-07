@@ -5,7 +5,7 @@
 
 echo "Upload Begin"
 
-echo "hola"
+echo "wassup"
 hostname -I > ip.txt
 git add .
 git commit -m "New Commit"
